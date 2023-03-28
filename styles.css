@@ -1,3 +1,10 @@
+#page{
+    width:100vw;
+    height:100vh;
+    display:grid;
+    place-items:center;
+}
+
 .rotate {
     display: inline-block;
     animation: rotate 3s ease-in-out infinite;
