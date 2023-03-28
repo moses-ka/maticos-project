@@ -1,16 +1,16 @@
 .rotate {
     display: inline-block;
-    animation: rotate 1s ease-in-out infinite;
+    animation: rotate 3s ease-in-out infinite;
   }
   
   @keyframes rotate {
     0% {
-      transform: rotate(-45deg);
+      transform: rotate(-15deg);
     }
     50% {
-      transform: rotate(45deg);
+      transform: rotate(80deg);
     }
     100%{
-      transform: rotate(-45deg);
+      transform: rotate(-15deg);
     }
   }
