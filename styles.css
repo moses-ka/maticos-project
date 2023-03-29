@@ -80,6 +80,11 @@ flex-wrap:wrap;
   border:1px solid #0f3c60;
   padding: 1rem 2.75rem;
   font-size: 1rem;
+  transition:opacity .3s ease;
+}
+
+.btn:hover{
+  opacity:0.8;
 }
 
 .mt-1{
