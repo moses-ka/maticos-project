@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap');
 
 html{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #page{
@@ -50,7 +50,9 @@ flex-wrap:wrap;
 }
 
 .item div{
-  line-height:1.5
+  line-height:1.5;
+  font-weight: 300;
+font-size: .9rem;
 }
 
 @media (max-width: 1200px) {
@@ -62,11 +64,12 @@ flex-wrap:wrap;
 .item h2{
   text-transform:uppercase;
   font-size:2rem;
+  font-weight:100;
 }
 
 .btn{
   display: inline-block;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.5;
   color: white;
   text-align: center;
@@ -79,12 +82,13 @@ flex-wrap:wrap;
   background-color: #0f3c60;
   border:1px solid #0f3c60;
   padding: 1rem 2.75rem;
-  font-size: 1rem;
-  transition:opacity .3s ease;
+  font-size: .75rem;
+  transition:all .3s ease;
 }
 
 .btn:hover{
   opacity:0.8;
+  transform:scale(1.1);
 }
 
 .mt-1{
